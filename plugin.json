@@ -1,0 +1,81 @@
+{
+  "id": "com.acode.aiagent",
+  "name": "AI Agent Pro",
+  "version": "2.0.0",
+  "main": "src/main.js",
+  "icon": "assets/icon.png",
+  "readme": "README.md",
+  "author": {
+    "name": "Bello Barry Dev",
+    "email": "bello.barry01@gmail.com",
+    "github": "aiagent"
+  },
+  "description": "🤖 Assistant IA révolutionnaire pour Next.js 15 et multi-langages. Génération, correction, optimisation et analyse intelligente de code avec DeepSeek, Gemini et OpenAI.",
+  "price": 0,
+  "browser": false,
+  "files": [
+    "src/main.js",
+    "src/api/deepseek.js",
+    "src/api/multiAIOrchestrator.js",
+    "src/features/codeGenerator.js",
+    "src/features/codeCorrector.js",
+    "src/features/projectCreator.js",
+    "src/features/codeSuggester.js",
+    "src/features/nextJSSpecialist.js",
+    "src/features/contextAnalyzer.js",
+    "src/ui/sidebar.js",
+    "src/ui/dialogs.js",
+    "src/utils/fileManager.js",
+    "src/utils/analytics.js",
+    "assets/icon.png",
+    "assets/icon-32.png",
+    "assets/icon-64.png"
+  ],
+  "permissions": [
+    "storage",
+    "internet",
+    "file-system"
+  ],
+  "minVersionCode": 300,
+  "features": [
+    "AI Code Generation",
+    "Smart Code Correction", 
+    "Real-time Code Suggestions",
+    "Next.js 15 Specialist",
+    "Multi-Language Support",
+    "Project Scaffolding",
+    "Code Analysis & Optimization",
+    "Security Scanning",
+    "Performance Monitoring",
+    "Multi-AI Provider Support"
+  ],
+  "supportedLanguages": [
+    "javascript",
+    "typescript",
+    "python",
+    "html",
+    "css",
+    "php",
+    "java",
+    "rust",
+    "go",
+    "sql"
+  ],
+  "aiProviders": [
+    "DeepSeek",
+    "Gemini",
+    "OpenAI"
+  ],
+  "changelog": {
+    "2.0.0": [
+      "Added Next.js 15 full support",
+      "Multi-AI provider orchestration",
+      "Advanced context analysis",
+      "Real-time code suggestions",
+      "Enhanced project creation",
+      "Comprehensive analytics",
+      "Improved error handling",
+      "Performance optimizations"
+    ]
+  }
+}
